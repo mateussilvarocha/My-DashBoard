@@ -1,0 +1,145 @@
+
+
+/* ------------ Variaveis ----------- */
+
+:root{
+	--cor-primaria: #849696 ;
+	--cor-secundaria: #FEFFFB;
+	--cor-ternaria: #102226;
+	--cor-quartenaria: #17384C;
+	--cor-quintaria: #E48200;
+
+}
+
+/* --------- Geral --------*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: sans-serif;
+    background: var(--cor-quartenaria);
+    background-image: url("./img/fundo.png");
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+
+/* ---------- Navigation --------- */
+
+
+.lado-lado{
+
+	display:inline-block;
+
+}
+
+#menu-superior{
+	
+	padding: 10px;
+	z-index:100;
+	background: var(--cor-quartenaria);
+	position: relative;
+	text-align: center;
+
+}
+#menu-superior h1{
+
+	
+	text-align: center;
+	font-size: 2em;
+	color: var(--cor-quintaria);
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#options{
+
+	display: inline-block; 
+	margin: 0 auto;
+	width: fit-content;
+
+}
+#options li{
+
+	display:inline-block;
+	background: var(--cor-quintaria);
+	border-radius: 30%;
+	cursor: pointer;
+	margin-left: 10px;
+	padding: 10px;
+	
+}
+#options a:link, a:visited{
+
+	color: black;
+
+}
+
+/* -------------- Post ------------*/
+
+
+
+#area-post{
+	
+	background: var(--cor-ternaria);
+	width: calc(100px -100%);
+	margin: 50px;
+	color: white;
+	
+}
+.post{
+	brackground: var(--cor-quarternaria);
+	tex-align: center;
+	width: 90%;
+	margin: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
